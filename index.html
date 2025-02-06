@@ -1,83 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Immigrant Support Hub</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Haven for Immigrants</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
 </head>
-<body class="bg-gray-50">
-    <header class="bg-blue-700 text-white py-4">
-        <div class="container mx-auto text-center">
-            <h1 class="text-3xl font-bold">Immigrant Support Hub</h1>
-            <p class="text-sm mt-1">Your guide to citizenship, healthcare, and more</p>
+<body>
+  <!-- Primary Navigation (Header) -->
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Haven for Immigrants Logo">
+      <span class="brand">Haven for Immigrants</span>
+    </div>
+    <nav>
+      <ul class="primary-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="fundraiser.html">Fundraiser</a></li>
+        <li><a href="competitions.html">Competitions</a></li>
+        <li><a href="tools.html">Tools & Assessments</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Empowering Immigrants Through Knowledge and Support</h1>
+        <p>Welcome to Haven for Immigrants—your trusted resource for navigating immigration, healthcare, and mental wellness.</p>
+        <div class="hero-buttons">
+          <a href="about.html" class="btn primary">Learn More</a>
+          <a href="tools.html" class="btn secondary">Get Started</a>
         </div>
-    </header>
+      </div>
+      <!-- Optional background image/gradient can be set via CSS -->
+    </section>
 
-    <main class="container mx-auto mt-6 px-4">
-        <section class="bg-white shadow-md rounded-lg p-6 mb-8">
-            <h2 class="text-2xl font-bold mb-4">About Us</h2>
-            <p class="text-gray-700">We are dedicated to providing resources and support for immigrants navigating the complexities of citizenship, healthcare, and mental well-being. Explore our guides, join our events, and take steps towards a better future.</p>
-        </section>
-
-        <section class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-            <div class="bg-white shadow-md rounded-lg p-6">
-                <h3 class="text-xl font-bold mb-3">Guide to Citizenship and Healthcare</h3>
-                <p class="text-gray-700 mb-3">Explore our ultimate guide to healthcare and visa requirements. Find detailed checklists for various visas and tips on achieving citizenship.</p>
-                <a href="#guides" class="text-blue-500 hover:underline">Learn More</a>
-            </div>
-            <div class="bg-white shadow-md rounded-lg p-6">
-                <h3 class="text-xl font-bold mb-3">Fundraiser</h3>
-                <p class="text-gray-700 mb-3">Support our mission by contributing to our fundraiser. Your help goes towards providing critical resources to immigrants in need.</p>
-                <a href="#fundraiser" class="text-blue-500 hover:underline">Donate Now</a>
-            </div>
-            <div class="bg-white shadow-md rounded-lg p-6">
-                <h3 class="text-xl font-bold mb-3">Storytelling Competition</h3>
-                <p class="text-gray-700 mb-3">Participate in our competition to share inspiring stories of immigrants. Raise awareness and celebrate resilience.</p>
-                <a href="#competition" class="text-blue-500 hover:underline">Participate</a>
-            </div>
-            <div class="bg-white shadow-md rounded-lg p-6">
-                <h3 class="text-xl font-bold mb-3">Mental Health Assessment</h3>
-                <p class="text-gray-700 mb-3">Take a confidential mental health assessment and find resources tailored for immigrants.</p>
-                <a href="#mental-health" class="text-blue-500 hover:underline">Start Assessment</a>
-            </div>
-        </section>
-
-        <section id="guides" class="bg-white shadow-md rounded-lg p-6 mb-8">
-            <h2 class="text-2xl font-bold mb-4">Visa and Healthcare Guides</h2>
-            <ul class="list-disc pl-6 text-gray-700">
-                <li class="mb-2">B-1 Business Visa / VWP: Brief visits for business activities.</li>
-                <li class="mb-2">F-1 Student Visa: For pursuing full-time education.</li>
-                <li class="mb-2">J-1 Exchange Visitor Visa: For cultural and educational exchanges.</li>
-                <li class="mb-2">H-1B Visa: Specialized fields like IT and engineering.</li>
-                <li class="mb-2">H-2A and H-2B Visas: For temporary agricultural and non-agricultural work.</li>
-            </ul>
-            <a href="#checklist" class="text-blue-500 hover:underline">View Full Checklist</a>
-        </section>
-
-        <section id="fundraiser" class="bg-white shadow-md rounded-lg p-6 mb-8">
-            <h2 class="text-2xl font-bold mb-4">Support Our Fundraiser</h2>
-            <p class="text-gray-700">Help us provide critical resources for immigrants. Every contribution makes a difference.</p>
-            <button class="bg-blue-700 text-white px-4 py-2 rounded-lg mt-4 hover:bg-blue-600">Donate</button>
-        </section>
-
-        <section id="competition" class="bg-white shadow-md rounded-lg p-6 mb-8">
-            <h2 class="text-2xl font-bold mb-4">Storytelling Competition</h2>
-            <p class="text-gray-700">Share your story and inspire others. The top entries will be featured on our platform and receive special prizes.</p>
-            <button class="bg-blue-700 text-white px-4 py-2 rounded-lg mt-4 hover:bg-blue-600">Participate Now</button>
-        </section>
-
-        <section id="mental-health" class="bg-white shadow-md rounded-lg p-6 mb-8">
-            <h2 class="text-2xl font-bold mb-4">Mental Health Assessment</h2>
-            <p class="text-gray-700">Take a quick and confidential mental health assessment to get tailored recommendations and resources.</p>
-            <button class="bg-blue-700 text-white px-4 py-2 rounded-lg mt-4 hover:bg-blue-600">Take Assessment</button>
-        </section>
-    </main>
-
-    <footer class="bg-gray-800 text-white py-4">
-        <div class="container mx-auto text-center">
-            <p>&copy; 2025 Immigrant Support Hub. All rights reserved.</p>
+    <!-- Overview of Services -->
+    <section class="services">
+      <h2>Our Services</h2>
+      <div class="service-cards">
+        <div class="card">
+          <img src="images/blog.jpg" alt="Blog">
+          <h3>Blog</h3>
+          <p>Informative articles on immigration, citizenship, and personal stories.</p>
         </div>
-    </footer>
+        <div class="card">
+          <img src="images/fundraiser-icon.jpg" alt="Fundraiser">
+          <h3>Fundraiser</h3>
+          <p>Support our cause and help make a difference in immigrant communities.</p>
+        </div>
+        <div class="card">
+          <img src="images/competition-icon.jpg" alt="Competitions">
+          <h3>Competitions</h3>
+          <p>Share your journey in our storytelling competitions.</p>
+        </div>
+        <div class="card">
+          <img src="images/tools-icon.jpg" alt="Tools & Assessments">
+          <h3>Tools & Assessments</h3>
+          <p>Access interactive assessments and guides for mental health and healthcare.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Stories/Successes -->
+    <section class="featured-stories">
+      <h2>Success Stories</h2>
+      <div class="carousel">
+        <div class="story">
+          <img src="images/story1.jpg" alt="Success Story 1">
+          <p>"Thanks to Haven for Immigrants, I found the support I needed to navigate my visa process!"</p>
+        </div>
+        <div class="story">
+          <img src="images/story2.jpg" alt="Success Story 2">
+          <p>"The mental health assessment helped me get the professional help I needed."</p>
+        </div>
+        <div class="story">
+          <img src="images/story3.jpg" alt="Success Story 3">
+          <p>"A wonderful resource that made a big difference in my life."</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Tools Teaser -->
+    <section class="interactive-tools">
+      <h2>Interactive Tools</h2>
+      <p>Explore our interactive mental health assessment and healthcare checklist to stay informed and supported.</p>
+      <a href="tools.html" class="btn primary">Explore Tools</a>
+    </section>
+  </main>
+
+  <!-- Footer Navigation -->
+  <footer>
+    <div class="footer-content">
+      <div class="quick-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="social-media">
+        <h3>Follow Us</h3>
+        <ul>
+          <li><a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a></li>
+          <li><a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a></li>
+          <li><a href="#"><img src="images/instagram-icon.png" alt="Instagram"></a></li>
+        </ul>
+      </div>
+      <div class="newsletter">
+        <h3>Newsletter</h3>
+        <form id="newsletter-form">
+          <input type="email" name="email" placeholder="Your email address" required>
+          <button type="submit" class="btn primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Haven for Immigrants. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
